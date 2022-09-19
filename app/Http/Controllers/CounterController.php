@@ -76,7 +76,7 @@ class CounterController extends Controller
                 Counters::destroy(1);
                 $count = 0;
             }else {
-                throw '参数action错误';
+                throw new Exception('参数action错误') ;
             }
 
             $res = [
