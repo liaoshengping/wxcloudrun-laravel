@@ -64,7 +64,7 @@ class CounterController extends Controller
                 if ($data == null) {
                     $count = 1;
                 }else {
-                    $count = $data["count"] + 3;
+                    $count = $data["count"] + 3111;
                 }
     
                 $counters = new Counters;
